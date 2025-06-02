@@ -38,7 +38,7 @@ export function encode([lon, lat]: number[], precision: number): string {
 }
 export function decode(hash: string) {
   const binaryRep = ghsToBinary(hash)
-  const ranges: { "lat": number[], "lon": number[] } = {
+  const ranges = {
     "lat": [-90, 90],
     "lon": [-180, 180]
   }
