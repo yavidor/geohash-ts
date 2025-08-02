@@ -1,3 +1,3 @@
 # GeoHash
 
-Yet another geohash implementation in typescript
+Yet another geohash implementation in TypeScript
